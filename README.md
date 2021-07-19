@@ -9,7 +9,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
 
-### Bloco 1: [Unix & Bash](https://)
+### Bloco 1: [Unix & Bash](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-01-unix-bash)
 
 :ballot_box_with_check: 1-3: _Unix & Bash - Part 1_
 
@@ -17,7 +17,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :ballot_box_with_check: 1-4: _Unix & Bash - Part 2_
 
 
-### Bloco 2: [Git, GitHub e Internet](https://)
+### Bloco 2: [Git, GitHub e Internet](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-02-git-github-internet)
 
 :ballot_box_with_check: 2-1: _Git e GitHub - O que é e para que serve?_
 
@@ -26,7 +26,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 2-3: _Internet - Entendendo como ela funciona_
 
 
-### Bloco 3: [Introdução o HTML e CSS](https://)
+### Bloco 3: [Introdução o HTML e CSS](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-03-introducao-a-html-e-css)
 
 :black_large_square: 3-1: _Introdução - HTML & CSS_
 
@@ -41,7 +41,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 3-5: _Projeto - Lesson Learned_
 
 
-### Bloco 4: [Introdução ao JavaScript e Lógica de Programação](https://)
+### Bloco 4: [Introdução ao JavaScript e Lógica de Programação](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-04-introducao-javascript-e-logica-programacao)
 
 :black_large_square: 4-1: _Introdução - JavaScript_
 
@@ -56,7 +56,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 4-5: _Projeto - Playground Functions_
 
 
-### Bloco 5: [Javascript: DOM, Eventos e Web Storage](https://)
+### Bloco 5: [Javascript: DOM, Eventos e Web Storage](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage)
 
 :black_large_square: 5-1: _JavaScript - DOM e seletores_
 
@@ -79,7 +79,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 5-7: _Projeto Bônus - Carta Misteriosa_
 
 
-### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://)
+### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo)
 
 :black_large_square: 6-1: _HTML & CSS - Forms_
 
@@ -95,7 +95,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :black_large_square: 6-6: _Projeto - Trybewarts_
 
-### Bloco 7: [Introdução ao JavaScript ES6 e Testes Unitários](https://)
+### Bloco 7: [Introdução ao JavaScript ES6 e Testes Unitários](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-07-introducao-javascript-es6-e-testes-unitarios)
 
 :black_large_square: 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 
@@ -106,7 +106,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 7-4: _Projeto - JavaScript Testes Unitários_
 
 
-### Bloco 8: [Higher Order Functions do JavaScript ES6](https://)
+### Bloco 8: [Higher Order Functions do JavaScript ES6](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-08-higher-order-functions-do-javascript-es6)
 
 :black_large_square:8-1: _JavaScript ES6 - Introdução Higher Order Functions_
 
@@ -121,7 +121,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 8-6: _Projeto - Zoo functions_
 
 
-### Bloco 9: [Javascript Assíncrono e Promises](https://)
+### Bloco 9: [Javascript Assíncrono e Promises](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-09-javascript-assincrono-e-promises)
 
 :black_large_square: 9-1: _JavaScript Assíncrono e Callbacks_
 
@@ -130,7 +130,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 9-3: _Projeto - Carrinho de Compras_
 
 
-### Bloco 10: [Testes automatizados com Jest](https://)
+### Bloco 10: [Testes automatizados com Jest](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-10-testes-automatizados-com-jest)
 
 :black_large_square: 10-1: _Primeiros passos no Jest_
 
@@ -144,7 +144,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 
-### Bloco 11: [Introdução ao React](https://)
+### Bloco 11: [Introdução ao React](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-11-introducao-ao-react)
 
 :black_large_square: 11-1: _Introdução - Front-End_
 
@@ -157,14 +157,14 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 11-3: _Projeto - Movie Cards Library_
 
  
-### Bloco 12: [Componentes com Estado, Eventos e Formulários com React](https://)
+### Bloco 12: [Componentes com Estado, Eventos e Formulários com React](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-12-componentes-com-estado-eventos-e-formularios-com-react)
 
 :black_large_square: 12-1: _Components com estado e eventos_
 
 :black_large_square: 12-2: _Formulários no React_
 :black_large_square: 12-3: _Projeto - Movie Cards Library Stateful_
 
-### Bloco 13: [Ciclo de Vida de Componentes e React Router](https://)
+### Bloco 13: [Ciclo de Vida de Componentes e React Router](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-13-ciclo-de-vida-de-componentes-e-react-router)
 
 :black_large_square: 13-1: _Ciclo de vida de componentes_
 :black_large_square: 13-2: _React Router_
@@ -172,13 +172,13 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 13-3: _Projeto - Movie Cards Library CRUD_
 
 
-### Bloco 14: [Metodologias Ágeis](https://)
+### Bloco 14: [Metodologias Ágeis](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-14-metodologias-ageis)
 
 :black_large_square: 14-1: _Metodologias Ágeis_
 
 :black_large_square: 14-2: _Projeto - Frontend Online Store_
 
-### Bloco 15: [Testes automatizados com React Testing Library](https://)
+### Bloco 15: [Testes automatizados com React Testing Library](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-15-testes-automatizados-com-react-testing-library)
 
 :black_large_square: 15-1: _RTL - Primeiros Passos_
 
@@ -189,7 +189,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 15-3: _Projeto - Testes em React_
 
 
-### Bloco 16: [Gerenciamento de Estado com Redux](https://)
+### Bloco 16: [Gerenciamento de Estado com Redux](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-16-gerenciamento-de-estado-com-redux)
 
 :black_large_square: 16-1: _Introdução ao Redux - O estado global da aplicação_
 
@@ -204,12 +204,12 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square:16-6: _Projeto - Trybe Wallet_
   
 
-### Bloco 17: [Projeto Jogo de Trivia](https://)
+### Bloco 17: [Projeto Jogo de Trivia](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-17-projeto-jogo-de-trivia/dia-01-projeto-jogo-de-trivia)
 
 :black_large_square: 17-1: _Projeto - Jogo de Trivia_
 
 
-### Bloco 18: [Context API & Reack Hooks](https://)
+### Bloco 18: [Context API & Reack Hooks](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-18-context-api-e-react-hooks)
 
 :black_large_square: 18-1: _Context API do React_
 
@@ -220,7 +220,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 18-4: _Projeto - StarWars Datatable com Context API e Hooks_
 
 
-### Bloco 19: [Projeto App de Receitas](https://)
+### Bloco 19: [Projeto App de Receitas](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-19-projeto-app-e-receitas/dia-01-projeto-app-de-receitas)
 
 :black_large_square: 19-1: _Projeto - App de Receitas_
 
@@ -228,7 +228,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 
-### Bloco 20: [Introdução - SQL](https://)
+### Bloco 20: [Introdução - SQL](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/03-back-end/bloco-20-introducao-a-SQL)
 
 :black_large_square: 20-1: _Introdução - Back-End_
 
@@ -245,7 +245,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 20-5: _Projeto - All For One_
 
  
-### Bloco 21: [Funções SQL, Joins e Subqueries](https://)
+### Bloco 21: [Funções SQL, Joins e Subqueries](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/03-back-end/bloco-21-funcoes-SQL-joins-e-subqueries)
 
 :black_large_square: 21-1: _Funções mais usadas no SQL_
 
@@ -256,7 +256,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 21-4: _Projeto - Vocabulary Booster_
 
 
-### Bloco 22: [Normalização e Modelagem de Banco de Dados](https://)
+### Bloco 22: [Normalização e Modelagem de Banco de Dados](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/03-back-end/bloco-22-normalizacao-e-modelagem-de-banco-de-dados)
 
 :black_large_square: 22-1: _Transformando ideias em um modelo de banco de dados - Parte 1_
 
@@ -267,7 +267,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 22-3: _Projeto - One For All_
 
  
-### Bloco 23: [Introdução ao MongoDB](https://)
+### Bloco 23: [Introdução ao MongoDB](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/03-back-end/bloco-23-introducao-ao-mongoDB)
 
 :black_large_square: 23-1: _Introdução NoSQL_
 
@@ -278,7 +278,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 23-3: _Projeto - Data Flights_
 
 
-### Bloco 24: [MongoDB: Updates simples e complexos](https://)
+### Bloco 24: [MongoDB: Updates simples e complexos](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/03-back-end/bloco-24-mongoDB-updates-simples-e-complexos)
 
 :black_large_square: 24-1: _Updates Simples_
 
@@ -289,7 +289,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 24-4: _Projeto - Commerce_
 
   
-### Bloco 25: [MongoDB: Aggregation Framework](https://)
+### Bloco 25: [MongoDB: Aggregation Framework](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/03-back-end/bloco-25-mongoDB-aggregation-framework)
 
 :black_large_square: 25-1: _Aggregation Framework - Part 1_
 
@@ -297,7 +297,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :black_large_square: 25-3: _Projeto - Aggregations_
  
-### Bloco 26: [Introdução ao Desenvolvimento Web com NodeJS](https://)
+### Bloco 26: [Introdução ao Desenvolvimento Web com NodeJS](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/03-back-end/bloco-26-introducao-ao-desenvolvimento-web-com-nodeJS)
 
 :black_large_square: 26-1: _Intro - NodeJS_
 
@@ -314,7 +314,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 26-6: _Projeto - Talker Manager_
 
 
-### Bloco 27: [NodeJS: Camada de Serviço e Arquitetura Rest e Restful](https://)
+### Bloco 27: [NodeJS: Camada de Serviço e Arquitetura Rest e Restful](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/03-back-end/bloco-27-nodeJS-camada-de-servico-e-arquitetura-rest-e-restful)
 
 :black_large_square: 27-1: _Introdução - Arquitetura de Software_
 
@@ -329,7 +329,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 27-3: _Projeto - Store Manager_
 
  
-### Bloco 28: [Autenticação e Upload de Arquivos](https://)
+### Bloco 28: [Autenticação e Upload de Arquivos](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/03-back-end/bloco-28-autenticacao-e-upload-de-arquivos)
 
 :black_large_square: 28-1: _NodeJS - JWT - (JSON Web Token)_
 
@@ -340,7 +340,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 28-3: _Projeto - Cookmaster_
 
 
-### Bloco 29: [Depoloyment](https://)
+### Bloco 29: [Depoloyment](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/03-back-end/bloco-29-deployment)
 
 :black_large_square: 29-1: _Introdução - Deploy_
 
@@ -351,7 +351,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 29-3: _Projeto - Stranger Things_
 
 
-### Bloco 30: [Arquitetura: SOLID e ORM](https://)
+### Bloco 30: [Arquitetura: SOLID e ORM](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/03-back-end/bloco-30-arquitetura-SOLID-e-ORM)
 
 :black_large_square: 30-1: _Arquitetura - Princípios SOLID_
 
@@ -362,7 +362,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 30-4: _Projeto - API de Blogs_
 
 
-### Bloco 31: [Sockets](https://)
+### Bloco 31: [Sockets](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/03-back-end/bloco-31-sockets)
 
 :black_large_square: 31-1: _Arquitetura de Software - Camada de View_
 
@@ -375,7 +375,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 31-5: _Projeto - Webchat_
 
 
-### Bloco 32: [Projeto Trybeer](https://)
+### Bloco 32: [Projeto Trybeer](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/03-back-end/bloco-32-projeto-trybeer/dia-01-projeto-trybeer)
 
 :black_large_square: 32-1: _Projeto - Trybeer_
 
@@ -383,7 +383,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 ## Ciência da Computação :hourglass_flowing_sand:
 
  
-### Bloco 33: [Arquitetura de Computadores e Redes](https://)
+### Bloco 33: [Arquitetura de Computadores e Redes](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/04-ciencia-da-computacao/bloco-33-arquitetura-de-computadores-e-redes)
 
 :black_large_square:  33-1: _Introdução - Ciência da Computação_
 
@@ -396,7 +396,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 35-4: _Projeto - Explorando os protocolos_
 
 
-### Bloco 34: [Introdução ao Python e Raspagem de Dados da Web](https://)
+### Bloco 34: [Introdução ao Python e Raspagem de Dados da Web](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/04-ciencia-da-computacao/bloco-34-introducao-ao-python-e-raspagem-de-dados-da-web)
 
 :black_large_square: 34-1: _Aprendendo Python_
 
@@ -409,7 +409,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 34-5: _Projeto - Tech news_
 
 
-### Bloco 35: [Programação Orientada a Objetos e Padrões de Projeto](https://)
+### Bloco 35: [Programação Orientada a Objetos e Padrões de Projeto](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/04-ciencia-da-computacao/bloco-35-programacao-orientada-a-objetos-e-padroes-de-projeto)
 
 :black_large_square: 35-1: _Introdução à Programação Orientada a Objetos_
 
@@ -420,7 +420,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 35-4: _Projeto - Relatórios de Estoque_
 
 
-### Bloco 36: [Algoritmos e Estrutura de Dados](https://)
+### Bloco 36: [Algoritmos e Estrutura de Dados](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/04-ciencia-da-computacao/bloco-36-algoritmos-e-estrutura-de-dados)
 
 :black_large_square: 36-1: _Complexidade de Algoritmos_
 
@@ -431,7 +431,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 36-4: _Projeto - Algoritmos_
 
 
-### Bloco 37: [Estrutura de Dados: Hash e Set](https://)
+### Bloco 37: [Estrutura de Dados: Hash e Set](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/04-ciencia-da-computacao/bloco-37-estrutura-de-dados-hash-e-set)
 
 :black_large_square: 37-1: _Arrays_
 
@@ -442,7 +442,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :black_large_square: 37-3: _Projeto - Restaurant Orders_
 
 
-### Bloco 38: [Estrutura de Dados: Pilhas, Filas e Listas](https://)
+### Bloco 38: [Estrutura de Dados: Pilhas, Filas e Listas](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/04-ciencia-da-computacao/bloco-38-estrutura-de-dados-pilhas-filas-e-listas)
 
 :black_large_square: 38-1: _Nó e Listas Encadeadas_
 
