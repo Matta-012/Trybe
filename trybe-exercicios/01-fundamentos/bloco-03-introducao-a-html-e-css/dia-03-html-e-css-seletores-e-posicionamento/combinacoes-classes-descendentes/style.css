@@ -27,6 +27,14 @@ ol li:nth-of-type(odd) {
     text-transform: uppercase;
 }
 
+.unordered-list {
+    color: blue;
+}
+
+.java {
+    background-color: pink;
+}
+
 .links:hover {
     font-weight: bold;
 }
