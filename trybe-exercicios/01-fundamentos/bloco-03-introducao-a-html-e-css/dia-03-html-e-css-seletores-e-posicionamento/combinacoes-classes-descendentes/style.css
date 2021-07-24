@@ -1,3 +1,20 @@
+.headers {
+    color:red;
+}
+
+.header-italic {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
 ol {
     background-color: yellow;
 }
