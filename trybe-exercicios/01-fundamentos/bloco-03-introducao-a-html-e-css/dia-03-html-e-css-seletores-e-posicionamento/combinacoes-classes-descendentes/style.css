@@ -1,0 +1,23 @@
+.links:hover {
+    font-weight: bold;
+}
+
+.stack-over-flow:hover {
+    color: orange;
+}
+
+.w3-schools:hover {
+    color: green;
+}
+
+.mdn-web-docs:hover {
+    color: black;
+}
+
+.dev-docs:hover {
+    color: yellow;
+}
+
+.trybe:hover {
+    color: green;
+}
