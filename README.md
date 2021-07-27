@@ -21,22 +21,22 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 2-1: _Git e GitHub - O que é e para que serve?_
 
-:black_large_square: 2-2: _Git e GitHub - Entendendo os comandos_
+:ballot_box_with_check: 2-2: _Git e GitHub - Entendendo os comandos_
 
-:black_large_square: 2-3: _Internet - Entendendo como ela funciona_
+:ballot_box_with_check: 2-3: _Internet - Entendendo como ela funciona_
 
 
 ### Bloco 3: [Introdução o HTML e CSS](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-03-introducao-a-html-e-css)
 
-:black_large_square: 3-1: _Introdução - HTML & CSS_
+:ballot_box_with_check: 3-1: _Introdução - HTML & CSS_
 
-:black_large_square: 3-1: _HTML & CSS - Estruturas de página_
+:ballot_box_with_check: 3-1: _HTML & CSS - Estruturas de página_
 
-:black_large_square: 3-2: _HTML & CSS - Primeiros passos em CSS_
+:ballot_box_with_check: 3-2: _HTML & CSS - Primeiros passos em CSS_
 
-:black_large_square: 3-3: _HTML & CSS - Seletores e posicionamento_
+:ballot_box_with_check: 3-3: _HTML & CSS - Seletores e posicionamento_
 
-:black_large_square: 3-4: _HTML Semântico_
+:ballot_box_with_check: 3-4: _HTML Semântico_
 
 :black_large_square: 3-5: _Projeto - Lesson Learned_
 
