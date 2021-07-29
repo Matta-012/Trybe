@@ -42,6 +42,4 @@ for (let index = 0; index < array.length; index += 1) {
             arrOfMultiplication.push(array[index] * 2);
         }
 }
-for (let number of arrOfMultiplication) {
-    console.log(number);
-}
+console.log(arrOfMultiplication);
