@@ -10,7 +10,7 @@ switch (pecaXadrez.toLowerCase()) {
     case "cavalo":
         console.log("em L");
     break;
-    case "dama":
+    case "rainha":
         console.log("diagonais, vertical e horizontal");
     break;
     case "peão":
