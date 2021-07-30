@@ -1,10 +1,10 @@
 let n = 3;
-let cube = "*";
+let pyramid = "*";
 
 for (let i = 1; i < n; i += 1) {
-    cube += "*";
+    pyramid += "*";
 }
 
 for (let i = 0; i < n; i += 1) {
-    console.log(cube);
+    console.log(pyramid);
 }

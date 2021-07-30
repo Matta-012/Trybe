@@ -1,8 +1,8 @@
 let n = 5;
-let cube = "*";
+let pyramid = "*";
 
-console.log(cube);
+console.log(pyramid);
 for (let i = 1; i < n; i += 1) {
-    cube += "*";
-    console.log(cube);
+    pyramid += "*";
+    console.log(pyramid);
 }
