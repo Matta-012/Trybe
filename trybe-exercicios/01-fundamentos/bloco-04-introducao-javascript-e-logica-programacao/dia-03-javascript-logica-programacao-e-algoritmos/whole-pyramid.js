@@ -1,14 +1,17 @@
-//   *  
-//  ***
-// *****
+//    *
+//   ***
+//  *****  
+// *******
+//*********
 
 
-let n = 5;
-const asterisk = "*";
-const blankSpaces = " ";
+let n = 7;
+let asterisk = "*";
+let blankSpaces = " ";
 let pyramid;
 
-for (let i = 2; i < n; i += 1) {
-    pyramid = blankSpaces.repeat(n - i) + asterisk.repeat(i) + blankSpaces.repeat(n - i);
+for (let i = 1; i <= n; i += 2) {
+
+    pyramid = asterisk.repeat(i);
     console.log(pyramid);
 }

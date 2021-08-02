@@ -1,9 +1,7 @@
-let n = 3;
-let cube = "*";
+let n = 5;
+let cube = "";
 
-for (let i = 1; i < n; i += 1) {
-    cube += "*";
-}
+cube += "*".repeat(n);
 
 for (let i = 0; i < n; i += 1) {
     console.log(cube);
