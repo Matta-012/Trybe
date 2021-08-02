@@ -4,6 +4,7 @@
 // *******
 //*********
 
+//Exercício não finalizado.
 
 let n = 7;
 let asterisk = "*";
