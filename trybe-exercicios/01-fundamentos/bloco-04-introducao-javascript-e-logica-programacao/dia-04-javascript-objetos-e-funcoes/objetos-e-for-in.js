@@ -6,16 +6,20 @@ let info = {
     recorrente: 'Sim'
 };
 
-// console.log("Bem vinda, " + info.personagem);
-// //Exercício 3 - Faça um for/in que mostre todas as chaves do objeto.
-// for (let key in info) {
-//     console.log(key);
-// }
+console.log("Bem vinda, " + info.personagem);
 
-// //Exercício 4 - Faça um novo for/in , mas agora mostre todos os valores das chaves do objeto.
-// for (let key in info) {
-//     console.log(info[key]);
-// }
+//Exercício 2 - Insira no objeto uma nova propriedade com o nome de chave 'recorrente' e o valor 'Sim' e, em seguida, imprima o objeto no console.
+console.log(info);
+
+//Exercício 3 - Faça um for/in que mostre todas as chaves do objeto.
+for (let key in info) {
+    console.log(key);
+}
+
+//Exercício 4 - Faça um novo for/in , mas agora mostre todos os valores das chaves do objeto.
+for (let key in info) {
+    console.log(info[key]);
+}
 
 // Exercício 5 - Agora, defina um segundo objeto com a mesma estrutura (as mesmas chaves) do primeiro e os seguintes valores: 'Tio Patinhas', 
 // 'Christmas on Bear Mountain, Dell's Four Color Comics #178', 'O último MacPatinhas', 'Sim'. 
