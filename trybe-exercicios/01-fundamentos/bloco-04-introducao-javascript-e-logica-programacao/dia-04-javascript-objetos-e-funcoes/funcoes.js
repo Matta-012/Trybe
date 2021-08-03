@@ -47,17 +47,36 @@
 
 // Exercício 4 - Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
 
-function getLongestString(arrOfStrings) {
-    let longestString = arrOfStrings[0];
+// function getLongestString(arrOfStrings) {
+//     let longestString = arrOfStrings[0];
 
-    for (let i = 1; i < arrOfStrings.length; i++) {        
-        if (arrOfStrings[i].length > longestString.length) {
-            longestString = arrOfStrings[i];
+//     for (let i = 1; i < arrOfStrings.length; i++) {        
+//         if (arrOfStrings[i].length > longestString.length) {
+//             longestString = arrOfStrings[i];
+//         }
+//     }
+
+//     return longestString;
+// };
+
+// console.log(getLongestString(['José', 'Lucas', 'Nádia', 'Fernanda', 'aeHOOOOOOO', 'Joana']));
+
+//Exercício 5 - Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+
+function getMostRepeatedNumbers(arrOfNumbers) {
+    let repeatedNumberIndex;
+     
+    let repeatedCounter = 0;
+
+    for (let i = 1; i < arrOfNumbers.length; i++) {
+        for (let j = 0; j <= i; j++) {
+            if (arrOfNumbers[j] === arrOfNumbers[i]) {
+                repeatedCounter++;
+            }
         }
     }
 
-    return longestString;
+    return repeatedCounter;
 };
 
-console.log(getLongestString(['José', 'Lucas', 'Nádia', 'Fernanda', 'aeHOOOOOOO', 'Joana']));
-
+console.log(getMostRepeatedNumbers([2, 3, 2, 5, 8, 2, 3]));
