@@ -6,7 +6,7 @@
 //     else {
 //         return false;
 //     }
-// }
+// };
 // let input = "arara";
 // console.log("Is " + input + " a palindrome? " + checkPalindrome(input));
 
@@ -24,23 +24,40 @@
 //     }
 
 //     return indexPosition;
-// }
+// };
 
 // console.log("The highest number index is: " + highestValueIndex(numbers));
 
 //Exercício 3 - Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
-let arrOfNumbers = [2, -4, 6, 7, -10, 0, -13];
-function lowestValueIndex(arrOfNumbers) {
-    let lowestValue = arrOfNumbers[0];
-    let indexPosition = 0;
+// let arrOfNumbers = [2, -4, 6, 7, -10, 0, -13];
+// function lowestValueIndex(arrOfNumbers) {
+//     let lowestValue = arrOfNumbers[0];
+//     let indexPosition = 0;
 
-    for (let i in arrOfNumbers) {
-        if (arrOfNumbers[i] <= lowestValue) {
-            lowestValue = arrOfNumbers[i];
-            indexPosition = i;
+//     for (let i in arrOfNumbers) {
+//         if (arrOfNumbers[i] <= lowestValue) {
+//             lowestValue = arrOfNumbers[i];
+//             indexPosition = i;
+//         }
+//     }
+
+//     return indexPosition;
+// };
+// console.log("The lowest number index is: " + lowestValueIndex(arrOfNumbers));
+
+// Exercício 4 - Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
+
+function getLongestString(arrOfStrings) {
+    let longestString = arrOfStrings[0];
+
+    for (let i = 1; i < arrOfStrings.length; i++) {        
+        if (arrOfStrings[i].length > longestString.length) {
+            longestString = arrOfStrings[i];
         }
     }
 
-    return indexPosition;
-}
-console.log("The lowest number index is: " + lowestValueIndex(arrOfNumbers));
+    return longestString;
+};
+
+console.log(getLongestString(['José', 'Lucas', 'Nádia', 'Fernanda', 'aeHOOOOOOO', 'Joana']));
+
