@@ -70,7 +70,7 @@
         //Crie uma função que mude a cor do quadrado vermelho para branco.
         function centerBlock(colorInput) {
             let centerBlock = document.getElementsByClassName('center-content');
-            centerBlock[0].style.backgroundColor = 'white';
+            centerBlock[0].style.backgroundColor = colorInput;
 
             return centerBlock;
         }
@@ -102,10 +102,57 @@
             let paragraph = document.getElementsByTagName('p');
 
             for (text of paragraph) {
-                console.log(text);
+                console.log(text.innerHTML);
             }
         }
         logAllParagraphs();
+
+    //Implementa as resoluções do gabarito da Trybe.
+    // Exercício 1
+    /*
+    function changeText() {
+      let paragraph = document.getElementsByTagName('p')[1];
+      paragraph.innerHTML = "Ganhar 3.500 e estar em um empresa cabulosa!!"
+    }
+    changeText();
+
+    // Exercício 2
+    function changeSquareToGreen() {
+      let squareYellow = document.getElementsByClassName('main-content')[0];
+      squareYellow.style.background = "rgb(76,164,109)";
+    }
+    changeSquareToGreen();
+
+    // Exercício 3
+    function changeSquareToWhite() {
+      let squareRed = document.getElementsByClassName('center-content')[0];
+      squareRed.style.background = "white";
+    }
+    changeSquareToWhite();
+    
+    // Exercício 4
+    function correctTitle() {
+      let title = document.getElementsByTagName('h1')[0];
+      title.innerHTML = "Exercício 5.1 - JavaScript";
+    }
+    correctTitle();
+
+    // Exercício 5
+    function paragraphUpperCase() {
+      let paragraph = document.getElementsByTagName('p')[0];
+      paragraph.innerHTML = paragraph.innerHTML.toUpperCase();
+    }
+    paragraphUpperCase();
+
+    // Exercício 6
+    function showParagraphs() {
+      let paragraphs = document.getElementsByTagName('p');
+      for (let index = 0; index < paragraphs.length; index += 1) {
+        console.log(paragraphs[index].innerHTML);
+      }
+    }
+    showParagraphs();
+    */
     </script>
   </body>
 </html>
