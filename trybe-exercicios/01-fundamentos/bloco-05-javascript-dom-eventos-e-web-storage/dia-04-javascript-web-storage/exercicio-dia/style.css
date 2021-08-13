@@ -19,3 +19,21 @@ h1, h2 {
 #inputContainer {
 	margin-top: 50px;
 }
+
+#textColor {
+	margin-left: 60px;
+}
+
+#lineHeight {
+	margin-left: 60px;
+}
+
+#fontFamily {
+	position: relative;
+	left: -153px;
+}
+
+#fontButton {
+	position: relative;
+	left: -153px;
+}
