@@ -41,37 +41,51 @@ function restoreTextColorStorage() {
 }
 
 //Implementa mudança de tamanho da fonte, salva no localStorage e depois recupera ela.
-function handleFontSize() {
+function handleFontSizeChange() {
     styleChanges.size = getFontSizeInput.value;
     getParagraph.style.fontSize = styleChanges.size + 'px';
 
     localStorage.setItem('size', JSON.stringify(styleChanges.size));
 }
-sizeButton.addEventListener('click', handleFontSize);
+sizeButton.addEventListener('click', handleFontSizeChange);
 
-function restoreFontSize() {
+function restoreFontSizeStorage() {
     const fontSize = JSON.parse(localStorage.getItem('size')) + 'px';
     getParagraph.style.fontSize = fontSize;
 }
 
 //Implementa mudança de altura da fonte, salva no localStorage e depois recupera ela.
-function handleLineHeight() {
+function handleLineHeightChange() {
     styleChanges.height = getLineHeightInput.value;
     getParagraph.style.lineHeight = styleChanges.height
 
     localStorage.setItem('height', JSON.stringify(styleChanges.height));
 }
-lineButton.addEventListener('click', handleLineHeight);
+lineButton.addEventListener('click', handleLineHeightChange);
 
-function restoreLineHeight() {
+function restoreLineHeightStorage() {
     const lineHeight = JSON.parse(localStorage.getItem('height'));
     getParagraph.style.lineHeight = lineHeight;
 }
 
+//Implementa mudança do tipo de fonte, salva no localStorage e depois recupera ela.
+function handleFontFamilyChange() {
+    styleChanges.fontFamily = getFontFamilyInput.value;
+    getParagraph.style.fontFamily = styleChanges.fontFamily;
+
+    localStorage.setItem('fontFamily', JSON.stringify(styleChanges.fontFamily));
+}
+fontButton.addEventListener('click', handleFontFamilyChange);
+
+function restoreFontFamilyStorage() {
+    const fontFamily = JSON.parse(localStorage.getItem('fontFamily'));
+    getParagraph.style.fontFamily = fontFamily;
+}
 
 window.onload = function() {
     restoreBackgroundStorage();
     restoreTextColorStorage();
-    restoreFontSize();
-    restoreLineHeight()
+    restoreFontSizeStorage();
+    restoreLineHeightStorage();
+    restoreFontFamilyStorage();
 }
