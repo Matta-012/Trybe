@@ -2,13 +2,20 @@ h1, h2 {
 	text-align: center;
 }
 
-#journal {
+#container {
 	height: 400px;
 	text-align: center;
 	border: 2px solid black;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
-.journalParagraph {
-	margin-left: 30%;
-	margin-right: 30%;
+#journalParagraph {
+	margin-left: 30px;
+	margin-right: 30px;
+	text-align: justify;
+}
+
+#inputContainer {
+	margin-top: 50px;
 }
