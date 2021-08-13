@@ -82,10 +82,14 @@ function restoreFontFamilyStorage() {
     getParagraph.style.fontFamily = fontFamily;
 }
 
-window.onload = function() {
+function restoreLocalStorage() {
     restoreBackgroundStorage();
     restoreTextColorStorage();
     restoreFontSizeStorage();
     restoreLineHeightStorage();
     restoreFontFamilyStorage();
+}
+
+window.onload = function() {
+    restoreLocalStorage();
 }
