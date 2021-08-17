@@ -38,39 +38,39 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 3-4: _HTML Semântico_
 
-:black_large_square: 3-5: _Projeto - Lesson Learned_
+:ballot_box_with_check: 3-5: _Projeto - Lesson Learned_
 
 
 ### Bloco 4: [Introdução ao JavaScript e Lógica de Programação](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-04-introducao-javascript-e-logica-programacao)
 
-:black_large_square: 4-1: _Introdução - JavaScript_
+:ballot_box_with_check: 4-1: _Introdução - JavaScript_
 
-:black_large_square: 4-1: _JavaScript - Primeiros passos_
+:ballot_box_with_check: 4-1: _JavaScript - Primeiros passos_
 
-:black_large_square: 4-2: _JavaScript - Array e loop For_
+:ballot_box_with_check: 4-2: _JavaScript - Array e loop For_
 
-:black_large_square: 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+:ballot_box_with_check: 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 
-:black_large_square: 4-4: _JavaScript - Objetos e funções_
+:ballot_box_with_check: 4-4: _JavaScript - Objetos e funções_
 
-:black_large_square: 4-5: _Projeto - Playground Functions_
+:ballot_box_with_check: 4-5: _Projeto - Playground Functions_
 
 
 ### Bloco 5: [Javascript: DOM, Eventos e Web Storage](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage)
 
-:black_large_square: 5-1: _JavaScript - DOM e seletores_
+:ballot_box_with_check: 5-1: _JavaScript - DOM e seletores_
 
-:black_large_square: 5-2: _JavaScript - Trabalhando com elementos_
+:ballot_box_with_check: 5-2: _JavaScript - Trabalhando com elementos_
 
-:black_large_square: 5-3: _JavaScript - Eventos_
+:ballot_box_with_check: 5-3: _JavaScript - Eventos_
 
-:black_large_square: 5-4: _JavaScript - Web Storage_
+:ballot_box_with_check: 5-4: _JavaScript - Web Storage_
 
-:black_large_square: 5.5: _Fundamentos - JavaScript - Projetos_
+:ballot_box_with_check: 5.5: _Fundamentos - JavaScript - Projetos_
 
-:black_large_square: 5.5: _Projeto: Arte com Pixels_
+:ballot_box_with_check: 5.5: _Projeto: Arte com Pixels_
 
-:black_large_square: 5-6: _Projeto - Lista de tarefas_
+:ballot_box_with_check: 5-6: _Projeto - Lista de tarefas_
 
 :black_large_square: 5-7: _Projeto Bônus - Meme Generator_
 
