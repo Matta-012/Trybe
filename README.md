@@ -68,9 +68,9 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 5.5: _Fundamentos - JavaScript - Projetos_
 
-:ballot_box_with_check: 5.5: _Projeto: Arte com Pixels_
+:ballot_box_with_check: 5.5: _Projeto: Arte com Pixels_(https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-05-projeto-arte-com-pixels)
 
-:ballot_box_with_check: 5-6: _Projeto - Lista de tarefas_
+:ballot_box_with_check: 5-6: _Projeto - Lista de tarefas_(https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-06-projeto-lista-de-tarefas)
 
 :black_large_square: 5-7: _Projeto Bônus - Meme Generator_
 
