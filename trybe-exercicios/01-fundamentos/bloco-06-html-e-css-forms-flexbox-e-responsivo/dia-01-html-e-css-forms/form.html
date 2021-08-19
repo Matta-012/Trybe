@@ -8,7 +8,77 @@
     <title>CSS Form</title>
 </head>
 <body>
-    <form action="GET"></form>
+    <form method="GET" class='box'>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <div class="input-container">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required maxlength="40">
+            </div>
+            
+            <div class="input-container">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required maxlength="50">
+            </div>
+
+            <div class="input-container">
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" required maxlength="11">
+            </div>
+
+            <div class="input-container">
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco" required maxlength="200">
+            </div>
+
+            <div class="input-container">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade" required maxlength="28">
+            </div>
+
+            <div class="input-container">
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado" required>
+                    <option value="sp">São Paulo</option>
+                </select>
+            </div>
+
+            <div class="input-container">
+                <label for="casa">Casa</label>
+                <input type="radio" name="complemento" id="casa" required>
+
+                <label for="apartamento">Apartamento</label>
+                <input type="radio" name="complemento" id="apartamento">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados do Último Emprego</legend>
+
+            <div class="input-container">
+                <label for="cv">Resumo Currículo</label>
+                <textarea name="resumo-cv" id="cv" cols="30" rows="10" maxlength="1000" required></textarea>
+            </div>
+
+            <div class="input-container">
+                <label for="cidade">Cargo</label>
+                <input type="text" name="cargo" id="cargo" required maxlength="40">
+            </div>
+
+            <div class="input-container">
+                <label for="descricao-cargo">Descrição Cargo</label>
+                <input type="text" name="descricao-cargo" id="descricao-cargo" required maxlength="500">
+            </div>
+
+            <div class="input-container">
+                <label for="data-inicio">Data Início</label>
+                <input type="text" name="data-inicio" id="data-inicio" required>
+            </div>
+            
+        </fieldset>
+        <button type="submit" id='enviar'>ENVIAR FORMULÁRIO</button>
+        <button id='limpar'>LIMPAR</button>
+    </form>
 
     <script src='script.js'></script>
 </body>
