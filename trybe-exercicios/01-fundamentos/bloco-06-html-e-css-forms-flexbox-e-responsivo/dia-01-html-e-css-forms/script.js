@@ -15,4 +15,5 @@ function createBrazilStates() {
 window.onload = function() {
     document.getElementById('data-inicio').DatePickerX.init({format: 'dd/mm/yyyy'});
     createBrazilStates();
+    new window.JustValidate('.js-form');
 }

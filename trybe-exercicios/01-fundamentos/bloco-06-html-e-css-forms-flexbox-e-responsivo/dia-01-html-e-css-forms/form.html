@@ -6,49 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="dist/css/DatePickerX.min.css">
+    <link rel="stylesheet" href="node_modules/just-validate/dist/css/justValidateTooltip.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>CSS Form</title>
 </head>
 <body>
-    <form method="GET" class='box'>
+    <form method="GET" class='box js-form'>
         <fieldset>
             <legend>Dados Pessoais</legend>
 
-            <div class="input-container">
+            <div class="input-container just-validate-tooltip-container">
                 <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" required maxlength="40">
+                <input type="text" name="nome" id="nome" data-validate-field="name">
             </div>
             
             <div class="input-container">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" required maxlength="50">
+                <input type="email" name="email" id="email">
             </div>
 
             <div class="input-container">
                 <label for="cpf">CPF</label>
-                <input type="text" name="cpf" id="cpf" required maxlength="11">
+                <input type="text" name="cpf" id="cpf">
             </div>
 
             <div class="input-container">
                 <label for="endereco">Endereço</label>
-                <input type="text" name="endereco" id="endereco" required maxlength="200">
+                <input type="text" name="endereco" id="endereco">
             </div>
 
             <div class="input-container">
                 <label for="cidade">Cidade</label>
-                <input type="text" name="cidade" id="cidade" required maxlength="28">
+                <input type="text" name="cidade" id="cidade">
             </div>
 
             <div class="input-container">
                 <label for="estado">Estado</label>
-                <select name="estado" id="estado" required>
+                <select name="estado" id="estado">
 
                 </select>
             </div>
 
             <div class="input-container">
                 <label for="casa">Casa</label>
-                <input type="radio" name="complemento" id="casa" required>
+                <input type="radio" name="complemento" id="casa">
 
                 <label for="apartamento">Apartamento</label>
                 <input type="radio" name="complemento" id="apartamento">
@@ -59,22 +60,22 @@
 
             <div class="input-container">
                 <label for="cv">Resumo Currículo</label>
-                <textarea name="resumo-cv" id="cv" cols="30" rows="10" maxlength="1000" required></textarea>
+                <textarea name="resumo-cv" id="cv" cols="30" rows="10"></textarea>
             </div>
 
             <div class="input-container">
                 <label for="cidade">Cargo</label>
-                <input type="text" name="cargo" id="cargo" required maxlength="40">
+                <input type="text" name="cargo" id="cargo">
             </div>
 
             <div class="input-container">
                 <label for="descricao-cargo">Descrição Cargo</label>
-                <input type="text" name="descricao-cargo" id="descricao-cargo" required maxlength="500">
+                <input type="text" name="descricao-cargo" id="descricao-cargo">
             </div>
 
             <div class="input-container">
                 <label for="data-inicio">Data Início</label>
-                <input type="text" name="data-inicio" id="data-inicio" required>
+                <input type="text" name="data-inicio" id="data-inicio">
             </div>
             
         </fieldset>
@@ -82,6 +83,7 @@
         <button id='limpar'>LIMPAR</button>
     </form>
     <script src="dist/js/DatePickerX.min.js"></script>
+    <script src="node_modules/just-validate/dist/js/just-validate.min.js"></script>
     <script src='script.js'></script>
 </body>
 </html>
