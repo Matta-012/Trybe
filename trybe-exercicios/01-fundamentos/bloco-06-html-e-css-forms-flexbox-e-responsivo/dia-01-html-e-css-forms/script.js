@@ -11,25 +11,8 @@ function createBrazilStates() {
     }
 }
 
-function verifyDate() {
-    let isValidDate = true;
-    const date = document.getElementById('data-inicio').value;
-
-    console.log(date);
-    if (!isValidDate) { return alert('Data inválida!'); }
-}
-
-function handleSubmitBtn(event) {
-    event.preventDefault();
-}
-
-function addSubmitBtnEvent() {
-    const submitBtn = document.getElementById('enviar');
-    submitBtn.addEventListener('click', handleSubmitBtn);
-    submitBtn.addEventListener('click', verifyDate);
-}
 
 window.onload = function() {
-    addSubmitBtnEvent();
+    document.getElementById('data-inicio').DatePickerX.init({format: 'dd/mm/yyyy'});
     createBrazilStates();
 }
