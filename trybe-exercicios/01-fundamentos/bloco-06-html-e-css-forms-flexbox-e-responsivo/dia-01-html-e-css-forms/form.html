@@ -17,70 +17,70 @@
 
             <div class="input-container just-validate-tooltip-container">
                 <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" data-validate-field="name">
+                <input type="text" name="nome" id="nome" data-validate-field="myName">
             </div>
             
-            <div class="input-container">
+            <div class="input-container just-validate-tooltip-container">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" data-validate-field="email">
             </div>
 
-            <div class="input-container">
+            <div class="input-container just-validate-tooltip-container">
                 <label for="cpf">CPF</label>
-                <input type="text" name="cpf" id="cpf">
+                <input type="text" name="cpf" id="cpf" data-validate-field="myCPF">
             </div>
 
-            <div class="input-container">
+            <div class="input-container just-validate-tooltip-container">
                 <label for="endereco">Endereço</label>
-                <input type="text" name="endereco" id="endereco">
+                <input type="text" name="endereco" id="endereco" data-validate-field="myAddress">
             </div>
 
-            <div class="input-container">
+            <div class="input-container just-validate-tooltip-container">
                 <label for="cidade">Cidade</label>
-                <input type="text" name="cidade" id="cidade">
+                <input type="text" name="cidade" id="cidade" data-validate-field="myCity">
             </div>
 
-            <div class="input-container">
+            <div class="input-container just-validate-tooltip-container">
                 <label for="estado">Estado</label>
-                <select name="estado" id="estado">
+                <select name="estado" id="estado" data-validate-field="myState">
 
                 </select>
             </div>
 
-            <div class="input-container">
+            <div class="input-container just-validate-tooltip-container">
                 <label for="casa">Casa</label>
-                <input type="radio" name="complemento" id="casa">
+                <input type="radio" name="complemento" id="casa" data-validate-field="radio">
 
                 <label for="apartamento">Apartamento</label>
-                <input type="radio" name="complemento" id="apartamento">
+                <input type="radio" name="complemento" id="apartamento" data-validate-field="radio">
             </div>
         </fieldset>
         <fieldset>
             <legend>Dados do Último Emprego</legend>
 
-            <div class="input-container">
+            <div class="input-container just-validate-tooltip-container">
                 <label for="cv">Resumo Currículo</label>
-                <textarea name="resumo-cv" id="cv" cols="30" rows="10"></textarea>
+                <textarea name="resumo-cv" id="cv" cols="80" rows="10" data-validate-field="myText"></textarea>
             </div>
 
-            <div class="input-container">
+            <div class="input-container just-validate-tooltip-container">
                 <label for="cidade">Cargo</label>
-                <input type="text" name="cargo" id="cargo">
+                <input type="text" name="cargo" id="cargo" data-validate-field="myJob">
             </div>
 
-            <div class="input-container">
+            <div class="input-container just-validate-tooltip-container">
                 <label for="descricao-cargo">Descrição Cargo</label>
-                <input type="text" name="descricao-cargo" id="descricao-cargo">
+                <input type="text" name="descricao-cargo" id="descricao-cargo" data-validate-field="myJobDescription">
             </div>
 
-            <div class="input-container">
+            <div class="input-container just-validate-tooltip-container">
                 <label for="data-inicio">Data Início</label>
-                <input type="text" name="data-inicio" id="data-inicio">
+                <input type="text" name="data-inicio" id="data-inicio" data-validate-field="myDate">
             </div>
             
         </fieldset>
         <button type="submit" id='enviar'>ENVIAR FORMULÁRIO</button>
-        <button id='limpar'>LIMPAR</button>
+        <button type="reset" id='limpar'>LIMPAR</button>
     </form>
     <script src="dist/js/DatePickerX.min.js"></script>
     <script src="node_modules/just-validate/dist/js/just-validate.min.js"></script>
