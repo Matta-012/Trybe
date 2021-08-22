@@ -45,21 +45,42 @@ function isValidDate() {
     
     if (!isValidDate) { return alert('Data inválida!'); }
 
-    return date;
+    return isValidDate;
 }
 
 function isValidField(input, maxLength) {
-    return input.length > 0 && input.length < maxLength;
+    return input.length > 0 && input.length <= maxLength;
+}
+
+function verifyAllInputFields() {
+    let isAllValid = true;
+    const name = isValidField(document.getElementById('nome').value, 40);
+    const email = isValidField(document.getElementById('email').value, 50);
+    const cpf = isValidField(document.getElementById('cpf').value, 11);
+    const address = isValidField(document.getElementById('endereco').value, 200);
+    const city = isValidField(document.getElementById('cidade').value, 28);
+    const curriculum = isValidField(document.getElementById('cv').value, 1000);
+    const job = isValidField(document.getElementById('cargo').value, 40);
+    const jobDescription = isValidField(document.getElementById('descricao-cargo').value, 500);
+    const date = isValidDate();
+
+    isAllValid = name && email && cpf && address && city && curriculum && job && jobDescription && date;
+
+    return isAllValid;
 }
 
 function handleSubmitBtn(event) {
     event.preventDefault();
+    if (verifyAllInputFields()) {
+        alert('Todos os campos foram preenchidos');
+    } else {
+        alert('Nem todos os campos foram preenchidos!');
+    }
 }
 
 function addSubmitBtnEvent() {
     const submitBtn = document.getElementById('enviar');
     submitBtn.addEventListener('click', handleSubmitBtn);
-    submitBtn.addEventListener('click', isValidDate);
 }
 
 window.onload = function() {
