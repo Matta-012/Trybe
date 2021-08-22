@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="dist/css/DatePickerX.min.css">
-    <link rel="stylesheet" href="node_modules/just-validate/dist/css/justValidateTooltip.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>CSS Form</title>
 </head>
@@ -15,75 +12,78 @@
         <fieldset>
             <legend>Dados Pessoais</legend>
 
-            <div class="input-container just-validate-tooltip-container">
+            <div class="input-container">
                 <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" data-validate-field="myName">
+                <input type="text" name="nome" id="nome" required maxlength="40">
             </div>
             
-            <div class="input-container just-validate-tooltip-container">
+            <div class="input-container">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" data-validate-field="email">
+                <input type="email" name="email" id="email" required maxlength="50">
             </div>
 
-            <div class="input-container just-validate-tooltip-container">
+            <div class="input-container">
                 <label for="cpf">CPF</label>
-                <input type="text" name="cpf" id="cpf" data-validate-field="myCPF">
+                <input type="text" name="cpf" id="cpf" required maxlength="11">
             </div>
 
-            <div class="input-container just-validate-tooltip-container">
+            <div class="input-container">
                 <label for="endereco">Endereço</label>
-                <input type="text" name="endereco" id="endereco" data-validate-field="myAddress">
+                <input type="text" name="endereco" id="endereco" required maxlength="200">
             </div>
 
-            <div class="input-container just-validate-tooltip-container">
+            <div class="input-container">
                 <label for="cidade">Cidade</label>
-                <input type="text" name="cidade" id="cidade" data-validate-field="myCity">
+                <input type="text" name="cidade" id="cidade" required maxlength="28">
             </div>
 
-            <div class="input-container just-validate-tooltip-container">
+            <div class="input-container">
                 <label for="estado">Estado</label>
-                <select name="estado" id="estado" data-validate-field="myState">
+                <select name="estado" id="estado" required>
 
                 </select>
             </div>
 
-            <div class="input-container just-validate-tooltip-container">
+            <div class="input-container">
                 <label for="casa">Casa</label>
-                <input type="radio" name="complemento" id="casa" data-validate-field="radio">
+                <input type="radio" name="complemento" id="casa" value='casa' checked required>
 
                 <label for="apartamento">Apartamento</label>
-                <input type="radio" name="complemento" id="apartamento" data-validate-field="radio">
+                <input type="radio" name="complemento" id="apartamento" value='apartamento'>
             </div>
         </fieldset>
         <fieldset>
             <legend>Dados do Último Emprego</legend>
 
-            <div class="input-container just-validate-tooltip-container">
+            <div class="input-container">
                 <label for="cv">Resumo Currículo</label>
-                <textarea name="resumo-cv" id="cv" cols="80" rows="10" data-validate-field="myText"></textarea>
+                <textarea name="resumo-cv" id="cv" cols="30" rows="10" maxlength="1000" required></textarea>
             </div>
 
-            <div class="input-container just-validate-tooltip-container">
+            <div class="input-container">
                 <label for="cidade">Cargo</label>
-                <input type="text" name="cargo" id="cargo" data-validate-field="myJob">
+                <input type="text" name="cargo" id="cargo" required maxlength="40">
             </div>
 
-            <div class="input-container just-validate-tooltip-container">
+            <div class="input-container">
                 <label for="descricao-cargo">Descrição Cargo</label>
-                <input type="text" name="descricao-cargo" id="descricao-cargo" data-validate-field="myJobDescription">
+                <input type="text" name="descricao-cargo" id="descricao-cargo" required maxlength="500">
             </div>
 
-            <div class="input-container just-validate-tooltip-container">
+            <div class="input-container">
                 <label for="data-inicio">Data Início</label>
-                <input type="text" name="data-inicio" id="data-inicio" data-validate-field="myDate">
+                <input type="text" name="data-inicio" id="data-inicio" required>
             </div>
             
         </fieldset>
         <button type="submit" id='enviar'>ENVIAR FORMULÁRIO</button>
-        <button type="reset" id='limpar'>LIMPAR</button>
+        <button id='limpar'>LIMPAR</button>
     </form>
-    <script src="dist/js/DatePickerX.min.js"></script>
-    <script src="node_modules/just-validate/dist/js/just-validate.min.js"></script>
+
+    <div id="submit-data">
+
+    </div>
+
     <script src='script.js'></script>
 </body>
 </html>
