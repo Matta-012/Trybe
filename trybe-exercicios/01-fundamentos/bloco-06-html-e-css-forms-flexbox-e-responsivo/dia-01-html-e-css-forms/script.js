@@ -52,6 +52,7 @@ function isValidField(input, maxLength) {
     return input.length > 0 && input.length <= maxLength;
 }
 
+// Verifica se todos os campos possuem algum valor e se são válidos.
 function verifyAllInputFields() {
     let isAllValid = true;
     const name = isValidField(document.getElementById('nome').value, 40);
@@ -69,10 +70,49 @@ function verifyAllInputFields() {
     return isAllValid;
 }
 
+// Verifica o complemento da residencia.
+function getTypeResidence() {
+    let houseType = document.querySelectorAll('input[name="complemento"]');
+    let residence = 'casa';
+
+    for (let type of houseType) {
+        if (type.checked) {
+            residence = type.value;
+        }
+    }
+
+    return residence;
+}
+
+// Cria um objeto com todas as informações do formulário.
+function formData() {
+    let dataObj = {
+        Nome: document.getElementById('nome').value,
+        email: document.getElementById('email').value,
+        CPF: document.getElementById('cpf').value,
+        Endereco: document.getElementById('endereco').value,
+        Cidade: document.getElementById('cidade').value,
+        Estado: document.getElementById('estado').selectedOptions[0].innerText,
+        Complemento: getTypeResidence(),
+        Curriculo: document.getElementById('cv').value,
+        Cargo: document.getElementById('cargo').value,
+        Descricao: document.getElementById('descricao-cargo').value,
+        DataInicio: document.getElementById('data-inicio').value
+    }
+
+    return dataObj;
+}
+
+// Aplica o preventDefault e repassa as informações dos campos para a div.
 function handleSubmitBtn(event) {
     event.preventDefault();
     if (verifyAllInputFields()) {
-        alert('Todos os campos foram preenchidos');
+        const formOutput = document.getElementById('submit-data');
+        const formDataOutput = formData();
+        
+        for (let index in formDataOutput) {
+            formOutput.innerHTML += `${index}: ${formDataOutput[index]} <br>`;
+        }
     } else {
         alert('Nem todos os campos foram preenchidos!');
     }
