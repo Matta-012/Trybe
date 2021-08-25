@@ -1,11 +1,12 @@
 body {
-
+	margin: 50px 40px;
+	font-size: 20px;
 }
 h1 {
-
+	font-size:  30px;
 }
 h2 {
-
+	font-size:  24px;
 }
 
 img {
@@ -13,5 +14,49 @@ img {
 }
 
 figure {
-	margin: 0;
+	margin: 20px;
+}
+
+@media screen and (min-width: 800px){
+	body {
+		background-color: #ff7f50;
+		font-size: 24px;
+		margin: 20px 20px;
+		text-align: center;
+	}
+
+	section p {
+		text-align: justify;
+		padding: 20px;
+	}
+
+	main {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+
+	main h2 {
+		flex-basis: 100%;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	figure {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		flex-basis: 40%;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	body {
+		background-color: lightcoral;
+		font-size: 28px;
+		margin: 50px;
+		max-width: 1300px;
+	}
 }
