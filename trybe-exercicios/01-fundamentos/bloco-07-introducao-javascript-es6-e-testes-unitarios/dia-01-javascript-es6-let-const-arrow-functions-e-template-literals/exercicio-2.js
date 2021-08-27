@@ -10,9 +10,9 @@ const factorial = number => {
 // console.log(factorial(4));
 
 // Fatorial na versão recursiva
-const recursiveFactorial = number => number === 0 ? console.log(1) : console.log(factorial(number));
+const recursiveFactorial = number => number === 0 ? 1 : number * recursiveFactorial(number - 1);
 
-recursiveFactorial(4);
+console.log(recursiveFactorial(0));
 
 // Retorna maior palavra
 const phrase = input => {
