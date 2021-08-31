@@ -46,6 +46,9 @@ const cloneAllLessons = (lesson1, lesson2, lesson3) => {
     return allLessons;
 };
 
+const clone = Object.assign({}, { lesson1, lesson2, lesson3 });
+
+
 // Exercício 6
 const allLessons = cloneAllLessons(lesson1, lesson2, lesson3);
 
@@ -79,4 +82,43 @@ const verifyObjKeyValue = (obj, key, value) => {
     return objKey.includes(key) && obj[key] === value;
 }
 
-console.log(verifyObjKeyValue(lesson2, 'numeroEstudantes', 20));
+verifyObjKeyValue(lesson2, 'numeroEstudantes', 20);
+
+// Exercício Bônus 1
+const totalMathStudents = (allLessons, lecture) => {
+    const objValues = Object.values(allLessons)
+    let sumOfStudents = 0;
+
+    for (let index in objValues) {
+        if (objValues[index].materia === lecture) {
+            sumOfStudents += objValues[index].numeroEstudantes;
+        }
+    }
+
+    return sumOfStudents;
+}
+
+totalMathStudents(allLessons, 'Matemática');
+
+// Exercício Bônus 2
+const teacherReport = (obj, name) => {
+    const objValues = Object.values(obj)
+    let report = {};
+    const arrOfLectures = [];
+    let sumOfStudents = 0;
+
+    for (let index in objValues) {
+        if (objValues[index].professor === name) {
+            arrOfLectures.push(objValues[index].materia);
+            sumOfStudents += objValues[index].numeroEstudantes;
+        }
+    }
+
+    report.professor = name;
+    report.aulas = arrOfLectures;        
+    report.estudantes = sumOfStudents;
+
+    return report;
+}
+
+console.log(teacherReport(allLessons, 'Carlos'));
