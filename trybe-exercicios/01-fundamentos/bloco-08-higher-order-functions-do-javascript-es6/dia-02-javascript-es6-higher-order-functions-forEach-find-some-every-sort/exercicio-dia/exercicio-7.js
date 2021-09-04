@@ -37,7 +37,7 @@ const books = [
     genre: 'Ficção Científica',
     author: {
       name: 'Frank Herbert',
-      birthYear: 1920,
+      birthYear: 1921,
     },
     releaseYear: 1965,
   },
@@ -67,9 +67,9 @@ const expectedResult = false;
 
 function authorUnique() {
   // escreva seu código aqui
-  const isSameBirthYear = books.every((book, index, array) => {
+  const isSameBirthYear = books.every((book) => {
     const birthYear = book.author.birthYear;
-    array.some(element => element.author.birthYear === birthYear);
+    !books.some(element => element.author.birthYear === birthYear && book.name !== element.name);
   });
 
   return isSameBirthYear;
