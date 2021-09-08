@@ -53,7 +53,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 4-4: _JavaScript - Objetos e funções_
 
-:ballot_box_with_check: 4-5: [_Projeto - Playground Functions_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-04-introducao-javascript-e-logica-programacao/dia-05-projeto-playground-functions)
+:ballot_box_with_check: 4-5: [_Projeto - Playground Functions_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-04-introducao-javascript-e-logica-programacao/dia-05-projeto-playground-functions/sd-015-b-project-playground-functions)
 
 
 ### Bloco 5: [Javascript: DOM, Eventos e Web Storage](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage)
@@ -93,7 +93,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 6-5: _CSS Responsivo - Mobile First_
 
-:ballot_box_with_check: 6-6: _Projeto - Trybewarts_
+:ballot_box_with_check: 6-6: [_Projeto - Trybewarts_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo/dia-06-projeto-trybewarts/sd-015-b-project-trybewarts)
 
 ### Bloco 7: [Introdução ao JavaScript ES6 e Testes Unitários](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-07-introducao-javascript-es6-e-testes-unitarios)
 
@@ -103,7 +103,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 7-3: _Testes unitários em JavaScript_
 
-:ballot_box_with_check: 7-4: _Projeto - JavaScript Testes Unitários_
+:ballot_box_with_check: 7-4: [_Projeto - JavaScript Testes Unitários_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-07-introducao-javascript-es6-e-testes-unitarios/dia-04-projeto-javascript-testes-unitarios/sd-015-b-project-js-unit-tests)
 
 
 ### Bloco 8: [Higher Order Functions do JavaScript ES6](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-08-higher-order-functions-do-javascript-es6)
