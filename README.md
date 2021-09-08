@@ -38,7 +38,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 3-4: _HTML Semântico_
 
-:ballot_box_with_check: 3-5: _Projeto - Lesson Learned_
+:ballot_box_with_check: 3-5: [_Projeto - Lesson Learned_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-03-introducao-a-html-e-css/dia-05-projeto-lessons-learned)
 
 
 ### Bloco 4: [Introdução ao JavaScript e Lógica de Programação](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-04-introducao-javascript-e-logica-programacao)
@@ -53,7 +53,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 4-4: _JavaScript - Objetos e funções_
 
-:ballot_box_with_check: 4-5: _Projeto - Playground Functions_
+:ballot_box_with_check: 4-5: [_Projeto - Playground Functions_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-04-introducao-javascript-e-logica-programacao/dia-05-projeto-playground-functions)
 
 
 ### Bloco 5: [Javascript: DOM, Eventos e Web Storage](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage)

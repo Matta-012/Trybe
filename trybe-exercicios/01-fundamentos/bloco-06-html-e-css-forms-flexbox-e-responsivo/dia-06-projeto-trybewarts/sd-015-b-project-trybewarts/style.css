@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inknut Antiqua, serif;
+  background-color: whitesmoke;
+}
+
+input , button {
+  font-family: Inknut Antiqua, serif;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(77, 30, 77);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(104, 41, 104);
+}
+
+button:active {
+  transform: translateY(4px);
+}
+
+button:disabled {
+  background-color: grey;
+  cursor: unset;
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.header h1 {
+  color: rgb(250, 250, 250);
+  font-weight: 700;
+}
+
+.header .trybewarts-login {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  height: 50px;
+}
+
+.personal-data-container div input {
+  width: 330px;
+  padding-left: 10px;
+  border-radius: 12px;
+  border-style: none;
+}
+
+.header .trybewarts-login input {
+  border-radius: 12px;
+  border-style: none;
+  padding: 10px;
+  margin: 0 10px;
+  width: 30%;
+  font-size: 18px;
+}
+
+.header .trybewarts-login button {
+  border-radius: 12px;
+  border-style: none;
+  padding: 10px;
+  margin: 0 10px;
+  width: 30%;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.trybewarts-header-logo {
+  width: 95px;
+  padding: 10px;
+}
+
+.main-container {
+  justify-content: space-around;
+  display: flex;
+}
+
+.main-container h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+  margin-right: 20px;
+}
+
+.main-container .img-container #trybewarts-forms-logo {
+  height: 500px;
+}
+
+.personal-data-container {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.personal-data-container div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  height: 60px;
+  align-items: stretch;
+}
+
+.personal-data-container div select {
+  width: 280px;
+  border-radius: 12px;
+  border-style: none;
+  background-color: white;
+}
+
+.personal-data-container div label {
+  align-self: center;
+}
+
+.house-info-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.main-container #evaluation-form .house-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.main-container #evaluation-form .technologies-container input {
+  margin-left: 20px;
+}
+
+.main-container #evaluation-form .rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.main-container #evaluation-form .text-area-container {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.9;
+}
+
+.main-container #evaluation-form .text-area-container textarea {
+  width: 100%;
+  margin: 5px;
+  border-color: rgb(77, 30, 77);
+}
+
+.main-container #evaluation-form .text-area-container p {
+  text-align: end;
+  height: auto;
+}
+
+.main-container #evaluation-form .agreement-container {
+  margin-bottom: 20px;
+}
+
+.main-container #evaluation-form #submit-btn {
+  height: 40px;
+  color: white;
+  border-radius: 12px;
+  border-style: none;
+  font-size: 18px;
+}
+
+.main-container .img-container {
+  align-self: center;
+  order: 2;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  background-color: rgb(66, 64, 64);
+}
