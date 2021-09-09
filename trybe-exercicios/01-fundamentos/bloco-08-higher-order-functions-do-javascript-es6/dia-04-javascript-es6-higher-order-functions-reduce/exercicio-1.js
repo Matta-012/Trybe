@@ -18,9 +18,11 @@ const reduceArray = ((acc, value) => {
 
 function flatten() {
   // escreva seu código aqui
-  const newArray = arrays.reduce(reduceArray, []);
+  const newArray = arrays.reduce(reduceArray, []); // Minha solução
+
+  const newArray = arrays.reduce((acc, currentValue) => acc.concat(currentValue), []); // Solução do gabarito.
 
   return newArray;
 }
-console.table(flatten());
+
 assert.deepStrictEqual(flatten(), ['1', '2', '3', true, 4, 5, 6]);
