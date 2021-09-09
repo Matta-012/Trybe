@@ -76,7 +76,13 @@ const getAuthorName = ((_, value) => {
 
 function reduceNames() {
   // escreva seu código aqui
-  const newString = books.reduce(getAuthorName, '');
+  const newString = books.reduce(getAuthorName, ''); // Minha resolução.
+
+  const names = books.reduce((acc, book, index, array) => {
+    if (index === array.length - 1) return `${acc} ${book.author.name}.`; // Resolução do Gabarito.
+    return `${acc} ${book.author.name},`;
+  }, '');
+  return names.trim();
 
   return newString;
 }
