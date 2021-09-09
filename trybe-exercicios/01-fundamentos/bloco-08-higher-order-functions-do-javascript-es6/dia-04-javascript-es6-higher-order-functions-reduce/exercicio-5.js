@@ -10,9 +10,7 @@ const names = [
 
 function containsA() {
   // escreva seu código aqui
-  const total = names.reduce((sum, string) => (
-    sum + string.toLowerCase().split('a').length - 1
-  ), 0);
+  const total = names.reduce((sum, string) => sum + string.toLowerCase().split('a').length - 1, 0 );
 
   return total;
 }
