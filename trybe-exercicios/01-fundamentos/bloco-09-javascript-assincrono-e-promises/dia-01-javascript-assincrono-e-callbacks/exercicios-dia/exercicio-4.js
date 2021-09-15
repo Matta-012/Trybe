@@ -18,6 +18,4 @@ const sendMarsTemperature = (callback) => {
   return message;
 };
 
-
-
 sendMarsTemperature(getMarsTemperature); // imprime "Mars temperature is: 20 degree Celsius", por exemplo
