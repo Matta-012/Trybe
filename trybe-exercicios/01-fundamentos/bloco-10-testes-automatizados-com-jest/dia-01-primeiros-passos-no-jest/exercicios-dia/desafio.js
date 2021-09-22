@@ -78,4 +78,19 @@ const searchEmployee = (employeeID, detail) => {
   return employeeSearchResult;
 };
 
+// Resolução do gabarito - Interpretei errado o enunciado, o dado passado nos detalhes seria o nome da chave do objeto retornado no find. A informação a ser exibida seria o valor contido na chave.
+
+const searchEmployee = (id, detail) => {
+  const employee = professionalBoard.find(employee => employee.id === id);
+
+  if (!employee) {
+    throw new Error("ID não identificada");
+  };
+  if (!employee[detail]) {
+    throw new Error("Informação indisponível");
+  };
+
+  return employee[detail];
+};
+
 module.exports = searchEmployee;
