@@ -15,8 +15,8 @@ class Form extends Component {
         />
         <ProfessionalForm changeHandler={ changeHandler } />
         <input
-            type="button"
-            onClick={ sendForm }
+            type="submit"
+            onSubmit={ sendForm  }
             value="Enviar"
         />
         <input
