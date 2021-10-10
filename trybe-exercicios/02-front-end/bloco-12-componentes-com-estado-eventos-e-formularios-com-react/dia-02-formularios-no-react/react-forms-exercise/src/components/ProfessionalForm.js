@@ -23,9 +23,9 @@ class ProfessionalFormForm extends Component {
               maxLength="40"
               required
               onChange={changeHandler}
-              onMouseEnter={() => {
-                alert('Preencha com cuidado esta informação.');
-              }}
+              // onMouseEnter={() => {
+              //   alert('Preencha com cuidado esta informação.');
+              // }}
             />
         </div>
         <div className="container">

@@ -3,6 +3,7 @@ import './App.css';
 import Form from './components/Form';
 import FormError from './components/FormError';
 import FormDataDisplay from './components/FormDataDisplay';
+import MyName from './components/MyName';
 
 const INITIAL_STATE = {
   name: '',
@@ -71,7 +72,10 @@ class App extends Component {
 
   resetForm = () => { this.setState(INITIAL_STATE) };
 
-  sendForm = () => { this.setState({ submitted: true }) };
+  sendForm = (event) => { 
+    event.preventDefault()
+    this.setState({ submitted: true })
+  };
 
   render() {
     const { submitted } = this.state;
@@ -89,6 +93,9 @@ class App extends Component {
           <FormError formError={this.state.formError} />
         </div>
         { submitted && <FormDataDisplay currentState={ this.state } /> }
+        <MyName name={this.state.name} changeHandler={ this.changeHandler }>
+          <p>Children props</p>
+        </MyName>
       </main>
     );
   }
