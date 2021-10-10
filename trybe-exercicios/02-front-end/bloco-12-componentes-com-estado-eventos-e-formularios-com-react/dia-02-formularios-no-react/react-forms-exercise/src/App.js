@@ -57,6 +57,7 @@ class App extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
+    this.setState({ submitted: true })
   }
 
   validateField(fieldName, value) {
@@ -72,18 +73,13 @@ class App extends Component {
 
   resetForm = () => { this.setState(INITIAL_STATE) };
 
-  sendForm = (event) => { 
-    event.preventDefault()
-    this.setState({ submitted: true })
-  };
-
   render() {
     const { submitted } = this.state;
 
     return (
       <main>
         <Form
-          sendForm={this.sendForm}
+          handleSubmit={this.handleSubmit}
           resetForm={this.resetForm}
           changeHandler={this.changeHandler}
           currentState={ this.state }
