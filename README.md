@@ -8,14 +8,11 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-
 ### Bloco 1: [Unix & Bash](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-01-unix-bash)
 
 :ballot_box_with_check: 1-3: _Unix & Bash - Part 1_
 
-
 :ballot_box_with_check: 1-4: _Unix & Bash - Part 2_
-
 
 ### Bloco 2: [Git, GitHub e Internet](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-02-git-github-internet)
 
@@ -24,7 +21,6 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :ballot_box_with_check: 2-2: _Git e GitHub - Entendendo os comandos_
 
 :ballot_box_with_check: 2-3: _Internet - Entendendo como ela funciona_
-
 
 ### Bloco 3: [Introdução o HTML e CSS](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-03-introducao-a-html-e-css)
 
@@ -40,7 +36,6 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 3-5: [_Projeto - Lesson Learned_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-03-introducao-a-html-e-css/dia-05-projeto-lessons-learned)
 
-
 ### Bloco 4: [Introdução ao JavaScript e Lógica de Programação](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-04-introducao-javascript-e-logica-programacao)
 
 :ballot_box_with_check: 4-1: _Introdução - JavaScript_
@@ -54,7 +49,6 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :ballot_box_with_check: 4-4: _JavaScript - Objetos e funções_
 
 :ballot_box_with_check: 4-5: [_Projeto - Playground Functions_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-04-introducao-javascript-e-logica-programacao/dia-05-projeto-playground-functions/sd-015-b-project-playground-functions)
-
 
 ### Bloco 5: [Javascript: DOM, Eventos e Web Storage](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage)
 
@@ -71,13 +65,6 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 :ballot_box_with_check: 5.5: [_Projeto: Arte com Pixels_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-05-projeto-arte-com-pixels)
 
 :ballot_box_with_check: 5-6: [_Projeto - Lista de tarefas_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-06-projeto-lista-de-tarefas)
-
-:black_large_square: 5-7: _Projeto Bônus - Meme Generator_
-
-:black_large_square: 5-7: _Projeto Bônus - Adivinhe a cor_
-
-:black_large_square: 5-7: _Projeto Bônus - Carta Misteriosa_
-
 
 ### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo)
 
@@ -105,7 +92,6 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 7-4: [_Projeto - JavaScript Testes Unitários_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-07-introducao-javascript-es6-e-testes-unitarios/dia-04-projeto-javascript-testes-unitarios/sd-015-b-project-js-unit-tests)
 
-
 ### Bloco 8: [Higher Order Functions do JavaScript ES6](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-08-higher-order-functions-do-javascript-es6)
 
 :ballot_box_with_check: 8-1: _JavaScript ES6 - Introdução Higher Order Functions_
@@ -114,119 +100,109 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 
-:black_large_square: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+:ballot_box_with_check: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 
-:black_large_square: 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
+:ballot_box_with_check: 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
 
-:black_large_square: 8-6: _Projeto - Zoo functions_
-
+:ballot_box_with_check: 8-6: _Projeto - Zoo functions_
 
 ### Bloco 9: [Javascript Assíncrono e Promises](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-09-javascript-assincrono-e-promises)
 
-:black_large_square: 9-1: _JavaScript Assíncrono e Callbacks_
+:ballot_box_with_check: 9-1: _JavaScript Assíncrono e Callbacks_
 
-:black_large_square: 9-2: _JavaScript Promises_
+:ballot_box_with_check: 9-2: _JavaScript Promises_
 
-:black_large_square: 9-3: _Projeto - Carrinho de Compras_
-
+:ballot_box_with_check: 9-3: _Projeto - Carrinho de Compras_
 
 ### Bloco 10: [Testes automatizados com Jest](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-10-testes-automatizados-com-jest)
 
-:black_large_square: 10-1: _Primeiros passos no Jest_
+:ballot_box_with_check: 10-1: _Primeiros passos no Jest_
 
-:black_large_square: 10-2: _Jest - Testes Assíncronos_
+:ballot_box_with_check: 10-2: _Jest - Testes Assíncronos_
 
-:black_large_square: 10-3: _Jest - Simulando comportamentos_
+:ballot_box_with_check: 10-3: _Jest - Simulando comportamentos_
 
-:black_large_square: 10-4: _Projeto - Jest Assíncrono e Mocking_
+:ballot_box_with_check: 10-4: _Projeto - Jest Assíncrono e Mocking_
 
-  
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
-
 
 ### Bloco 11: [Introdução ao React](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-11-introducao-ao-react)
 
-:black_large_square: 11-1: _Introdução - Front-End_
+:ballot_box_with_check: 11-1: _Introdução - Front-End_
 
-:black_large_square: 11-1: _Introdução - React_
+:ballot_box_with_check: 11-1: _Introdução - React_
 
-:black_large_square: 11-1: _'Hello, world!' no React!_
+:ballot_box_with_check: 11-1: _'Hello, world!' no React!_
 
-:black_large_square: 11-2: _Componentes React_
+:ballot_box_with_check: 11-2: _Componentes React_
 
-:black_large_square: 11-3: _Projeto - Movie Cards Library_
+:ballot_box_with_check: 11-3: _Projeto - Movie Cards Library_
 
- 
 ### Bloco 12: [Componentes com Estado, Eventos e Formulários com React](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-12-componentes-com-estado-eventos-e-formularios-com-react)
 
-:black_large_square: 12-1: _Components com estado e eventos_
+:ballot_box_with_check: 12-1: _Components com estado e eventos_
 
-:black_large_square: 12-2: _Formulários no React_
-:black_large_square: 12-3: _Projeto - Movie Cards Library Stateful_
+:ballot_box_with_check: 12-2: _Formulários no React_
+
+:ballot_box_with_check: 12-3: _Projeto - Tryunfo_
 
 ### Bloco 13: [Ciclo de Vida de Componentes e React Router](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-13-ciclo-de-vida-de-componentes-e-react-router)
 
-:black_large_square: 13-1: _Ciclo de vida de componentes_
-:black_large_square: 13-2: _React Router_
+:ballot_box_with_check: 13-1: _Ciclo de vida de componentes_
 
-:black_large_square: 13-3: _Projeto - Movie Cards Library CRUD_
+:ballot_box_with_check: 13-2: _React Router_
 
+:ballot_box_with_check: 13-3: _Projeto - TrybeTunes_
 
 ### Bloco 14: [Metodologias Ágeis](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-14-metodologias-ageis)
 
-:black_large_square: 14-1: _Metodologias Ágeis_
+:ballot_box_with_check: 14-1: _Metodologias Ágeis_
 
-:black_large_square: 14-2: _Projeto - Frontend Online Store_
+:ballot_box_with_check: 14-2: _Projeto - Frontend Online Store_
 
 ### Bloco 15: [Testes automatizados com React Testing Library](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-15-testes-automatizados-com-react-testing-library)
 
-:black_large_square: 15-1: _RTL - Primeiros Passos_
+:ballot_box_with_check: 15-1: _RTL - Primeiros Passos_
 
-:black_large_square: 15-2: _RTL - Mocks e Inputs_
+:ballot_box_with_check: 15-2: _RTL - Mocks e Inputs_
 
-:black_large_square: 15-2: _RTL: Testando com React Router_
+:ballot_box_with_check: 15-2: _RTL: Testando com React Router_
 
-:black_large_square: 15-3: _Projeto - Testes em React_
-
+:ballot_box_with_check: 15-3: _Projeto - Testes em React_
 
 ### Bloco 16: [Gerenciamento de Estado com Redux](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-16-gerenciamento-de-estado-com-redux)
 
-:black_large_square: 16-1: _Introdução ao Redux - O estado global da aplicação_
+:ballot_box_with_check: 16-1: _Introdução ao Redux - O estado global da aplicação_
 
-:black_large_square: 16-2: _Usando o Redux no React_
+:ballot_box_with_check: 16-2: _Usando o Redux no React_
 
-:black_large_square: 16-3: _Usando o Redux no React - Prática_
+:ballot_box_with_check: 16-3: _Usando o Redux no React - Prática_
 
-:black_large_square: 16-4: _Usando o Redux no React - Actions Assíncronas_
+:ballot_box_with_check: 16-4: _Usando o Redux no React - Actions Assíncronas_
 
-:black_large_square: 16-5: _Testes em React-Redux_
+:ballot_box_with_check: 16-5: _Testes em React-Redux_
 
-:black_large_square:16-6: _Projeto - Trybe Wallet_
-  
+:ballot_box_with_check: 16-6: _Projeto - Trybe Wallet_
 
 ### Bloco 17: [Projeto Jogo de Trivia](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-17-projeto-jogo-de-trivia/dia-01-projeto-jogo-de-trivia)
 
-:black_large_square: 17-1: _Projeto - Jogo de Trivia_
-
+:ballot_box_with_check: 17-1: _Projeto - Jogo de Trivia_
 
 ### Bloco 18: [Context API & Reack Hooks](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-18-context-api-e-react-hooks)
 
-:black_large_square: 18-1: _Context API do React_
+:ballot_box_with_check: 18-1: _Context API do React_
 
-:black_large_square: 18-2: _React Hooks - useState e useContext_
+:ballot_box_with_check: 18-2: _React Hooks - useState e useContext_
 
-:black_large_square: 18-3: _React Hooks - useEffect e Hooks customizados_
+:ballot_box_with_check: 18-3: _React Hooks - useEffect e Hooks customizados_
 
-:black_large_square: 18-4: _Projeto - StarWars Datatable com Context API e Hooks_
-
+:ballot_box_with_check: 18-4: _Projeto - StarWars Datatable com Context API e Hooks_
 
 ### Bloco 19: [Projeto App de Receitas](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-19-projeto-app-e-receitas/dia-01-projeto-app-de-receitas)
 
-:black_large_square: 19-1: _Projeto - App de Receitas_
-
+:ballot_box_with_check: _Projeto - App de Receitas_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
-
 
 ### Bloco 20: [Introdução - SQL](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/03-back-end/bloco-20-introducao-a-SQL)
 

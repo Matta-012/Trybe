@@ -1,0 +1,8 @@
+li {
+  list-style: none;
+}
+
+.card-anchor {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+}
