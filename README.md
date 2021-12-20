@@ -104,7 +104,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
 
-:ballot_box_with_check: 8-6: _Projeto - Zoo functions_
+:ballot_box_with_check: 8-6: [_Projeto - Zoo functions_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-08-higher-order-functions-do-javascript-es6/dia-06-projeto-zoo-functions)
 
 ### Bloco 9: [Javascript Assíncrono e Promises](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-09-javascript-assincrono-e-promises)
 
@@ -112,7 +112,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 9-2: _JavaScript Promises_
 
-:ballot_box_with_check: 9-3: _Projeto - Carrinho de Compras_
+:ballot_box_with_check: 9-3: [_Projeto - Carrinho de Compras_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-09-javascript-assincrono-e-promises/dia-03-projeto-carrinho-de-compras)
 
 ### Bloco 10: [Testes automatizados com Jest](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-10-testes-automatizados-com-jest)
 
@@ -122,7 +122,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 10-3: _Jest - Simulando comportamentos_
 
-:ballot_box_with_check: 10-4: _Projeto - Jest Assíncrono e Mocking_
+:ballot_box_with_check: 10-4: [_Projeto - Jest Assíncrono e Mocking_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/01-fundamentos/bloco-10-testes-automatizados-com-jest/dia-04-projeto-jest-assincrono-e-mocking)
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
@@ -136,7 +136,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 11-2: _Componentes React_
 
-:ballot_box_with_check: 11-3: _Projeto - Movie Cards Library_
+:ballot_box_with_check: 11-3: [_Projeto - Movie Cards Library_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-11-introducao-ao-react/dia-03-projeto-movie-cards-library)
 
 ### Bloco 12: [Componentes com Estado, Eventos e Formulários com React](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-12-componentes-com-estado-eventos-e-formularios-com-react)
 
@@ -144,7 +144,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 12-2: _Formulários no React_
 
-:ballot_box_with_check: 12-3: _Projeto - Tryunfo_
+:ballot_box_with_check: 12-3: [_Projeto - Tryunfo_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-12-componentes-com-estado-eventos-e-formularios-com-react/dia-03-projeto-tryunfo)
 
 ### Bloco 13: [Ciclo de Vida de Componentes e React Router](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-13-ciclo-de-vida-de-componentes-e-react-router)
 
@@ -152,13 +152,13 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 13-2: _React Router_
 
-:ballot_box_with_check: 13-3: _Projeto - TrybeTunes_
+:ballot_box_with_check: 13-3: [_Projeto - TrybeTunes_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-13-ciclo-de-vida-de-componentes-e-react-router/dia-03-projeto-trybetunes)
 
 ### Bloco 14: [Metodologias Ágeis](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-14-metodologias-ageis)
 
 :ballot_box_with_check: 14-1: _Metodologias Ágeis_
 
-:ballot_box_with_check: 14-2: _Projeto - Frontend Online Store_
+:ballot_box_with_check: 14-2: [_Projeto - Frontend Online Store_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-14-metodologias-ageis/dia-02-projeto-frontend-online-store)
 
 ### Bloco 15: [Testes automatizados com React Testing Library](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-15-testes-automatizados-com-react-testing-library)
 
@@ -168,7 +168,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 15-2: _RTL: Testando com React Router_
 
-:ballot_box_with_check: 15-3: _Projeto - Testes em React_
+:ballot_box_with_check: 15-3: [_Projeto - Testes em React_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-15-testes-automatizados-com-react-testing-library/dia-04-projeto-testes-em-react)
 
 ### Bloco 16: [Gerenciamento de Estado com Redux](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-16-gerenciamento-de-estado-com-redux)
 
@@ -182,11 +182,11 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 16-5: _Testes em React-Redux_
 
-:ballot_box_with_check: 16-6: _Projeto - Trybe Wallet_
+:ballot_box_with_check: 16-6: [_Projeto - Trybe Wallet_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-16-gerenciamento-de-estado-com-redux/dia-06-projeto-trybe-wallet)
 
 ### Bloco 17: [Projeto Jogo de Trivia](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-17-projeto-jogo-de-trivia/dia-01-projeto-jogo-de-trivia)
 
-:ballot_box_with_check: 17-1: _Projeto - Jogo de Trivia_
+:ballot_box_with_check: 17-1: [_Projeto - Jogo de Trivia_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-17-projeto-jogo-de-trivia/dia-01-projeto-jogo-de-trivia)
 
 ### Bloco 18: [Context API & Reack Hooks](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-18-context-api-e-react-hooks)
 
@@ -196,7 +196,7 @@ Este repositório contêm todas as atividades de aprendizagem que [EU](https://w
 
 :ballot_box_with_check: 18-3: _React Hooks - useEffect e Hooks customizados_
 
-:ballot_box_with_check: 18-4: _Projeto - StarWars Datatable com Context API e Hooks_
+:ballot_box_with_check: 18-4: [_Projeto - StarWars Datatable com Context API e Hooks_](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-18-context-api-e-react-hooks/dia-04-projeto-starwars-datatable-com-context-api-e-hooks)
 
 ### Bloco 19: [Projeto App de Receitas](https://github.com/Matta-012/Trybe/tree/main/trybe-exercicios/02-front-end/bloco-19-projeto-app-e-receitas/dia-01-projeto-app-de-receitas)
 
