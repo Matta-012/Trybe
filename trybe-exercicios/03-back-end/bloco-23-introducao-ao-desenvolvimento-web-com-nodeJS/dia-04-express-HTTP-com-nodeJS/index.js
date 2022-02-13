@@ -1,9 +1,8 @@
 const express = require("express");
-const { getSimpsons } = require('./fs-utils');
+const { getSimpsons, setSimpsons } = require('./fs-utils');
 
 const app = express();
 const PORT = 3000;
-const SIMPSONS_DATA = './simpsons.json';
 
 app.use(express.json()); // A partir da versão 4.17 do express o body parser pode ser substituido por express.json()
 
@@ -41,7 +40,25 @@ app.get("/simpsons/:id", async (req, res) => {
 
   const simpson = simpsonsData.find((simpson) => simpson.id === id)
 
-  return res.status(200).json(simpson);
+  if (!simpson) return res.status(404).json({ message: 'simpson not found'});
+
+  return res.status(202).json(simpson);
+});
+
+app.post('/simpsons', async (req, res) => {
+  const simpsons = await getSimpsons();
+  const { id, name } = req.body;
+
+  const isNewSimpsonData = simpsons.findIndex((simpson) => simpson.id === id);
+
+  console.log(isNewSimpsonData);
+  if (isNewSimpsonData !== -1) return res.status(409).json({ message: 'id already exists'});
+
+  const newSimpson = { id, name };
+  simpsons.push(newSimpson);
+  await setSimpsons(simpsons);
+
+  return res.status(204).end();
 });
 
 app.use(function (err, _req, res, _next) {
