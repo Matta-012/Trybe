@@ -10,5 +10,8 @@
   { "id": "9", "name": "Krusty" },
   { "id": "10", "name": "Milhouse Van Houten" },
   { "id": 12, "name": "Krusty" },
-  { "id": "11", "name": "Krusty" }
+  { "id": "11", "name": "Krusty" },
+  {},
+  { "id": "15", "name": "Homer" },
+  { "id": "14", "name": "Homer" }
 ]
