@@ -1,5 +1,5 @@
 const express = require("express");
-const fs = require("fs");
+const { getSimpsons } = require('./fs-utils');
 
 const app = express();
 const PORT = 3000;
@@ -30,10 +30,18 @@ app.put("/users/:name/:age", (req, res) => {
     .json({ message: `Seu nome é ${name} e você tem ${age} anos de idade` });
 });
 
-app.get("/simpsons", (_req, res) => {
-  const rawData = fs.readFileSync(SIMPSONS_DATA);
-  const parsedData = JSON.parse(rawData);
-  return res.status(200).json(parsedData);
+app.get("/simpsons", async (_req, res) => {
+  const simpsons = await getSimpsons();
+  return res.status(200).json(simpsons);
+});
+
+app.get("/simpsons/:id", async (req, res) => {
+  const simpsonsData = await getSimpsons();
+  const { id } = req.params;
+
+  const simpson = simpsonsData.find((simpson) => simpson.id === id)
+
+  return res.status(200).json(simpson);
 });
 
 app.use(function (err, _req, res, _next) {
